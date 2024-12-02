@@ -20,7 +20,7 @@ RUN go mod download
 COPY . .
 
 # Build the application with security flags
-RUN CGO_ENABLED=0 GOOS=linux go build -a -ldflags="-w -s" -o /go/bin/app ./cmd/server
+RUN CGO_ENABLED=0 GOOS=linux go build -a -ldflags="-w -s" -o /go/bin/app ./cmd/api
 
 # Final stage
 FROM alpine:3.18
