@@ -1,0 +1,36 @@
+# Version control
+.git
+.gitignore
+
+# IDE specific files
+.idea
+.vscode
+*.swp
+*.swo
+
+# Build files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test files
+*_test.go
+*.test
+
+# Debug files
+*.out
+
+# Environment files
+.env*
+*.env
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# Other
+README.md
+LICENSE
+*.log
