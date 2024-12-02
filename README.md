@@ -143,35 +143,3 @@ Run the tests:
 cd go-backend
 go test ./...
 ```
-
-## 📝 API Documentation
-
-### Endpoints
-
-- `GET /notes` - List all notes
-- `POST /notes` - Create a new note
-- `GET /notes/{id}` - Get a specific note
-- `PUT /notes/{id}` - Update a note
-- `DELETE /notes/{id}` - Delete a note
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👥 Authors
-
-- Ahmed Zein - Initial work and maintenance
-
-## 🙏 Acknowledgments
-
-- Go community for the excellent tooling
-- Kubernetes community for the robust container orchestration
-- Terraform community for infrastructure management tools
